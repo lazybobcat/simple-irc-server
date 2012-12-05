@@ -127,7 +127,8 @@ void Mainframe::updateChannels()
         if(it->second->empty())
         {
             delete (it->second);
-            it = mChannels.erase(it);
+            mChannels.erase(it);
+	    it++;
         }
         else
         {

@@ -2,7 +2,7 @@
 #define CONFIG_H_INCLUDED
 
 #include <string>
-#include <cstdint>
+#include <stdint.h>
 
 /**
  Some global variables usefull to acess from anywhere
